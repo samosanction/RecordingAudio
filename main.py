@@ -1,7 +1,7 @@
 import sounddevice
 from scipy.io.wavfile import write
 
-seconds = 10
+seconds = 5
 fps = 44100
 
 myrecording = sounddevice.rec(frames=seconds * fps, samplerate=fps, channels=1)
